@@ -1,0 +1,23 @@
+﻿
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="jQuery" Version="3.4.1" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+  </ItemGroup>
+
+  <!--<ItemGroup>
+    <Folder Include="wwwroot\libs\fonts\" />
+  </ItemGroup>-->
+
+  <!--<ItemGroup> //Este codigo es para restaurar el NuGet packages... En output Package Manager se varán los cambios
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.1.8" />
+  </ItemGroup>-->
+  
+</Project>
